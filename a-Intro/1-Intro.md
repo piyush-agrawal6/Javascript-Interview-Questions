@@ -92,3 +92,5 @@
 
 </html>
 ```
+
+  ### Next Topic - [Strict Mode](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/a-Intro/2-StrictMode.md)
