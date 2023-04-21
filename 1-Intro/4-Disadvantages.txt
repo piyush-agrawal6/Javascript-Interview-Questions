@@ -1,0 +1,5 @@
+// Some of the disadvantages of JavaScript are:
+-No support for multithreading
+-No support for multiprocessing
+-Reading and writing of files is not allowed
+-No support for networking applications.

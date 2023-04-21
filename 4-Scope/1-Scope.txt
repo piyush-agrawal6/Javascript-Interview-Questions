@@ -1,0 +1,27 @@
+Scope: 
+It is a region of the program where a variable can be accessed. In other words, scope determines the accessibility/visibility of a variable.
+
+There’re 3 kinds of scopes in JavaScript:
+
+Global scope:
+Variables declared outside of all functions are known as global variables and in the global scope. Global variables are accessible anywhere in the program.
+
+Function scope: 
+Variables that are declared inside a function are called local variables and in the function scope. Local variables are accessible anywhere inside the function. 
+
+Block scope: 
+Variable that is declared inside a specific block & can’t be accessed outside of that block. In order to access the variables of that specific block, we need to create an object for it.
+
+The code inside a function has access to:
+-the function’s arguments.
+-local variables declared inside the function.
+-variables declared in its parent function’s scope.
+-global variables.
+
+Block scope: 
+This tells us that any variable declared inside a block ({}) can be accessed only inside that block.
+Now, what is a block? a block {} is used to group JavaScript statements together into 1 group so that it can be used anywhere in the program where only 1 statement is expected to be written.
+Note: Block scope is related to variables declared with `let` and `const` only. Variables declared with `var` do not have block scope.
+
+Scope chain:
+Whenever our code tries to access a variable during the function call, it starts the search from local variables. And if the variable is not found, it’ll continue searching in its outer scope or parent functions’ scope until it reaches the global scope and completes searching for the variable there. Searching for any variable happens along the scope chain or in different scopes until we get the variable. If the variable is not found in the global scope as well, a reference error is thrown.  
