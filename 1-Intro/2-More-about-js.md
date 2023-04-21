@@ -13,5 +13,5 @@ Strict mode makes several changes to normal JavaScript semantics.
 - Strict mode makes it easier to write “secure” JavaScript.
 - For more details follow - [Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
-### 2. What is DOM and BOM ?
+### 2. What are JS Engines ?
 
