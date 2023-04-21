@@ -50,7 +50,9 @@ From basic to advanced: test how well you know JavaScript, refresh your knowledg
 | 38  | Throtlling                                                     
 | 39  | Set , Map , weakset , weakmap
 | 40  |  OOPS                                                       
-| 41  |  Debugger                                                                                                                                                                                                                         
+| 41  |  Debugger                                                 
+| 42  |  Important output based questions                                                    
+| 43  |  Important theory questions                                                                                                                                                                                                                        
 ---
 
 **[⬆ Back to Top](#topics-covered-in-the-series)**
