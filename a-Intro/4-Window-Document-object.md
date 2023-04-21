@@ -29,3 +29,6 @@ Here I am assuming that you already know about DOM and BOW.
 - Similar to document screen can be accessed either by `window.screen` or `screen` object directly. Screen object doesn't have any methods as in window and document objects.
 
 ![Screenshot_8](https://user-images.githubusercontent.com/100460788/233692050-5769c038-b3c1-41cd-9d36-a2c08fc450ca.png)
+
+
+### for more details - [Docs](https://www.geeksforgeeks.org/differences-between-document-and-window-objects/)
