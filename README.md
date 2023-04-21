@@ -1,6 +1,8 @@
 # JavaScript Interview Questions & Answers
 
-> Click :star:if you like the project and follow [@PiyushAgrawal](https://github.com/piyush-agrawal6) for more updates. 
+Click :star:if you like the project and follow [@PiyushAgrawal](https://www.linkedin.com/in/piyush-agrawal-me/) for more updates. 
+  
+From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit, or prepare for your coding interview! :muscle: :rocket: I update this repo regularly with new questions
 
 ---
 
@@ -44,4 +46,16 @@
 | 34  | [What is IndexedDB](#what-is-indexeddb)                                                                                                                           |
 | 35  | [What is web storage](#what-is-web-storage)                                                                                                                       |
 | 36  | [What is a post message](#what-is-a-post-message)                                                                                                                 |
-| 37  | [What is a cookie](#what-is-a-cookie)                                                                                                                             |
+| 37  | [What is a cookie](#what-is-a-cookie)                                                                                                                           
+
+---
+
+**[⬆ Back to Top](#topics-covered-in-the-series)**
+
+## Disclaimer | Note :
+
+The topics and questions provided in this repository are the summary of all the frequently asked questions across numerous companies. We cannot guarantee that these questions will actually be asked during your interview process, nor should you focus on memorizing all of them. 
+
+Good luck with your interview 😊
+
+---
