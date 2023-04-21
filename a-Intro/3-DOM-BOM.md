@@ -81,3 +81,5 @@ Output in console will look like:
 - `querySelector()` function to select elements based on query.
 - `querySelectorAll()` function to select elements based on query.
 - for more understanding - [Docs](https://www.dotnettricks.com/learn/javascript/dom-bom)
+
+### Next Topic - [Window and document object](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/a-Intro/4-Window-Document-object.md)
