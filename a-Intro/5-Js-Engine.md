@@ -55,3 +55,4 @@ Chakra is a JavaScript engine developed by Microsoft used for Microsoft Internet
 SpiderMonkey is the first JavaScript engine, written by Brendan Eich at Netscape Communications, released as open-source, and is currently maintained and used by the Mozilla Foundation. It contains a JavaScript compiler and interpreter along with several service programs. It is written in C++, Rust and JavaScript can be embedded into C++ and Rust projects and run as a stand-alone shell.
 
 ### For more details - [Docs](https://www.geeksforgeeks.org/introduction-to-javascript-engines/)
+### Next Topic - [Code execution in JS](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/a-Intro/6-Code-Execution.md)
