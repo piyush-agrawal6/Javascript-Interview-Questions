@@ -32,7 +32,7 @@ JavaScript is a lightweight, cross-platform, single-threaded, and interpreted co
 -  `Weak error handling and type checking facilities` : It is a weakly typed language as there is no need to specify the data type of the variable. So wrong type checking is not performed by compile.
 - `Richer interfaces` : You can use JavaScript to include such items as drag-and-drop components and sliders to give a Rich Interface to your site visitors.
 
-  ---
+---
   
 #### JavaScript: Client side Vs Server side
 
@@ -41,8 +41,8 @@ JavaScript is a lightweight, cross-platform, single-threaded, and interpreted co
 `Client Side JavaScript` is an extended version of JavaScript that enables the enhancement and manipulation of web pages and client browsers. In a browser environment , your code will have access to things provided only by the browser, like the document object for the current page, the window, functions like alert that pop up a message, etc. The main tasks of Client side JavaScript are validating input, animation, manipulating UI elements, applying styles, some calculations are done when you don't want the page to refresh so often. In web developing it's the browser, in the user's machine, that runs this code, and is mainly done in javascript . Also, this code must run in a variety of browsers.
 
 `Server Side JavaScript` is an extended version of JavaScript that enables back-end access to databases, file systems, and servers. Server side javascript, is javascript code running over a server local resources , it's just like C# or Java, but the syntax is based on JavaScript. A good example of this is Node.JS , with Node.JS you write javascript to program on the server side, and that code can be seen as normal C#, C, or any other server side language code. Moreover, with server-side code , you can still send javascript to the client-side, but there is a great difference between both, because the client side code is restricted to the clients machine resources, in terms of computing power and permissions. For example client-side javascript can't access the clients hard disk , while with server side you can access your server hard disk without any problem. The primary advantage to server-side scripting is the ability to highly customize the response based on the user's requirements, access rights, or queries into data stores.
-  
-  ---
+
+---
   
 #### JavaScript can be added to your HTML file in two ways
 
