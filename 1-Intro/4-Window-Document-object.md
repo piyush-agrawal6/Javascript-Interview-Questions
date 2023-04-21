@@ -1,7 +1,6 @@
 For better understanding - https://www.geeksforgeeks.org differences-between-document-and-window-objects/
 
-
-// Document Object: 
+// Document Object:
 The document object represent a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page. The document object can be accessed with a window.document or just document.
 
 Methods of Document:
@@ -23,9 +22,8 @@ querySelectorAll(): It returns a collection of an element’s child elements tha
 removeEventListener(): It removes the event handler from an element that has an attached event.
 write(): It is used to write some content or javascript code in the document.
 
-
-// Window Object: 
-The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage. Whenever a window appears on the screen to display the contents of the document, the window object is created. 
+// Window Object:
+The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage. Whenever a window appears on the screen to display the contents of the document, the window object is created.
 
 // Syntax:
 window.property_name;
