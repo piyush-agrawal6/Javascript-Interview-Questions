@@ -27,11 +27,22 @@ JavaScript is a lightweight, cross-platform, single-threaded, and interpreted co
 #### Limitations of JavaScript
 
 - `Security risks`: JavaScript can be used to fetch data using AJAX or by manipulating tags that load data such as <img>, <object>, <script>. These attacks are called cross-site script attacks. They inject JS that is not part of the site into the visitor’s browser thus fetching the details. 
-- `Performance`: JavaScript does not provide the same level of performance as offered by many traditional languages as a complex program written in JavaScript would be comparatively slow. But as JavaScript is used to perform simple tasks in a browser, so performance is not considered a big restriction in its use.
-- `Complexity`: To master a scripting language, programmers must have a thorough knowledge of all the programming concepts, core language objects, and client and server-side objects otherwise it would be difficult for them to write advanced scripts using JavaScript.
-- `Weak error handling and type checking facilities`: It is a weakly typed language as there is no need to specify the data type of the variable. So wrong type checking is not performed by compile.
+- `Performance` : JavaScript does not provide the same level of performance as offered by many traditional languages as a complex program written in JavaScript would be comparatively slow. But as JavaScript is used to perform simple tasks in a browser, so performance is not considered a big restriction in its use.
+- `Complexity` : To master a scripting language, programmers must have a thorough knowledge of all the programming concepts, core language objects, and client and server-side objects otherwise it would be difficult for them to write advanced scripts using JavaScript.
+-  `Weak error handling and type checking facilities` : It is a weakly typed language as there is no need to specify the data type of the variable. So wrong type checking is not performed by compile.
+- `Richer interfaces` : You can use JavaScript to include such items as drag-and-drop components and sliders to give a Rich Interface to your site visitors.
 
----
+  ---
+  
+#### JavaScript: Client side Vs Server side
+
+`Client side` programming includes any coding or computation or effects or animation or any sort of interaction your website performs with the user via browser . But server side programming is that which performs all the task in the server only . So the user is unaware of that. Few years ago JavaScript compilers were available only on the client machine (browsers). So java script was called as a client side scripting language. On the client side JavaScript is run by v8 engine (Google chrome). But now in the `server side` also JavaScript is used. The v8 engine (with some modifications to provide the server functionality) is also used in the servers to run js codes. So, in both cases the language is the same, only the environment is different.
+
+`Client Side JavaScript` is an extended version of JavaScript that enables the enhancement and manipulation of web pages and client browsers. In a browser environment , your code will have access to things provided only by the browser, like the document object for the current page, the window, functions like alert that pop up a message, etc. The main tasks of Client side JavaScript are validating input, animation, manipulating UI elements, applying styles, some calculations are done when you don't want the page to refresh so often. In web developing it's the browser, in the user's machine, that runs this code, and is mainly done in javascript . Also, this code must run in a variety of browsers.
+
+`Server Side JavaScript` is an extended version of JavaScript that enables back-end access to databases, file systems, and servers. Server side javascript, is javascript code running over a server local resources , it's just like C# or Java, but the syntax is based on JavaScript. A good example of this is Node.JS , with Node.JS you write javascript to program on the server side, and that code can be seen as normal C#, C, or any other server side language code. Moreover, with server-side code , you can still send javascript to the client-side, but there is a great difference between both, because the client side code is restricted to the clients machine resources, in terms of computing power and permissions. For example client-side javascript can't access the clients hard disk , while with server side you can access your server hard disk without any problem. The primary advantage to server-side scripting is the ability to highly customize the response based on the user's requirements, access rights, or queries into data stores.
+  
+  ---
   
 #### JavaScript can be added to your HTML file in two ways
 
