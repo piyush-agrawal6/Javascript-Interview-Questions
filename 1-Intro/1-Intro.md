@@ -36,7 +36,7 @@ JavaScript is a lightweight, cross-platform, single-threaded, and interpreted co
 #### JavaScript can be added to your HTML file in two ways
 
 - Internal JavaScript
-- Extern
+- External JavaScript
  
 #### Internal JavaScript: We can add JS code directly to our HTML file by writing the code inside the `<script>` & `</script>`. The <script> tag can either be placed inside the `<head>` or the `<body>` tag according to the requirement.
 
