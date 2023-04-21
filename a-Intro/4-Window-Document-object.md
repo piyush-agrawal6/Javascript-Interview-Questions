@@ -31,4 +31,5 @@ Here I am assuming that you already know about DOM and BOW.
 ![Screenshot_8](https://user-images.githubusercontent.com/100460788/233692050-5769c038-b3c1-41cd-9d36-a2c08fc450ca.png)
 
 
-### for more details - [Docs](https://www.geeksforgeeks.org/differences-between-document-and-window-objects/)
+### For more details - [Docs](https://www.geeksforgeeks.org/differences-between-document-and-window-objects/)
+### Next Topic - [JS Engine](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/a-Intro/5-Js-Engine.md)
