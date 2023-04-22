@@ -55,3 +55,7 @@ When a program starts execution JavaScript pushes the whole program as global co
  ![Capture5](https://user-images.githubusercontent.com/100460788/233767149-6fac737b-b482-4abb-b5a4-44116753e02d.png)
 
 When JavaScript completes the execution of the entire code, the Global Execution Context gets deleted and popped out from the Call Stack making the Call stack empty.
+
+### For more details -  [Docs](https://www.freecodecamp.org/news/how-javascript-works-behind-the-scene-javascript-execution-context/#:~:text=There%20are%20two%20types%20of,representing%20the%20function's%20local%20scope.)
+
+### Next Topic - [Event Loop](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/a-Intro/7-Event-Loop.md)
