@@ -28,21 +28,71 @@ The data types that are derived from primitive data types of the JavaScript lang
 ### 1. Number
 - A number data type can be an integer, a floating point value, an exponential value, a ‘NaN’ or a ‘Infinity’.
 ```
-let num = 2;   // integer 
-let num2 = 1.3;   // floating point number
-let num3 = Infinity;   // Infinity
-let c = 10e4;   //  an exponential value which evaluates to 10*10000
+let num = 2;    // integer 
+let num2 = 1.3;    // floating point number
+let num3 = Infinity;    // Infinity
+let c = 10e4;    //  an exponential value which evaluates to 10*10000
 ```
 
 - If a number is divided by 0, the resulting value is `infinity`.
 ```
 5/0;    // results in infinity
 The type of infinity is a number
-typeof(infinity);   // returns number
+typeof(infinity);     // returns number
  ```
 
 - A `NaN` results when we try to perform an operation on a number with a non-numeric value
 ```
-‘hi’ * 5; // returns NaN
-typeof(NaN);  // returns a number
+‘hi’ * 5;    // returns NaN
+typeof(NaN);    // returns a number
  ```
+
+### 2. String
+The string data type in JavaScript can be any group of characters enclosed by a single or double-quotes or by backticks.
+
+```
+let str = "Good morning !";
+let str2 = 'Single quotes works fine';
+let str3 = `Hey ${str}`;   // output will be "Hey Good morning !"
+```
+There’s no difference between ‘single’ and “double” quotes in javascript. Backticks provide extra functionality as with their help of them we can embed variables inside them.
+
+### 3. Boolean
+The boolean data type has only two values, `true` and `false`. It is mostly used to check a logical condition. Thus Booleans are logical data types which can be used for comparison of two variables or to check a condition. The true and false implies a ‘yes’ for ‘true’ and a ‘no’ .
+
+Let’s see an example of comparison statement:
+```
+var a=5;
+var b=6;
+console.log(a==b)   // returns false
+console.log(a!=b)   // returns true
+```
+
+When we check the data type of ‘true’ or ‘false’ using typeof operator, it returns a boolean.
+```
+typeof(true)   // returns boolean
+typeof(false)   // returns boolean
+```
+
+### 4. Undefined
+`Undefined` data type means a variable that is not defined. The variable is declared but doesn’t contain any value.
+
+```
+var a;
+console.log(a);   // This will return undefined.
+```
+
+### 5. Null
+The null in JavaScript is a data type that is represented by only one value, the ‘null’ itself. A null value means no value.
+
+Something like this:
+```
+var a = null;
+console.log(a);   // This returns null
+```
+
+If we check the data type of a using the typeof operator, we get:
+```
+typeof(a);     // This returns object
+```
+This means the type of a null value is an object, not null. This is a known issue in JavaScript since its first release.
