@@ -22,6 +22,7 @@ The data types that are derived from primitive data types of the JavaScript lang
 
 - `Object`: It is the most important data type and forms the building blocks for modern JavaScript. We will learn about these data types in detail in further articles. `Arrays` and `Functions` in JavaScript belong to the ‘object’ data type.
 
+
 ## Primitive Data Types
 
 ### 1. Number
