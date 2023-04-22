@@ -30,7 +30,7 @@ var c =  2;
 Undefined - When a variable is declared but not assigned, it has the value of undefined and it’s type is also undefined.
 Example :
 var x; // value of x is undefined
-var y = undefined; // we can also set the value of a variable as undefined
+var y = undefined; // we can also set the value of a variable as undefined  
 
 Null - It represents a non-existent or a invalid value.
 Example :
