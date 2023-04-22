@@ -96,3 +96,23 @@ If we check the data type of a using the typeof operator, we get:
 typeof(a);     // This returns object
 ```
 This means the type of a null value is an object, not null. This is a known issue in JavaScript since its first release.
+
+### 6. BigInt
+BigInt: BigInt is a built-in object in JavaScript that provides a way to represent whole numbers larger than 253-1. The largest number that JavaScript can reliably represent with the Number primitive is 253-1, which is represented by the MAX_SAFE_INTEGER constant.
+```
+var bigBin = BigInt("0b1010101001010101001111111111111111");
+// 11430854655n
+console.log(bigBin);
+```
+
+### 7. Symbol:
+
+Symbols are new primitive built-in object types introduced as part of ES6. Symbols return unique identifiers that can be used to add unique property keys to an object that won’t collide with keys of any other code that might add to the object. They are used as object properties that cannot be recreated. It basically helps us to enable encapsulation or information hiding.
+
+```
+let symbol1 = Symbol("Geeks")
+let symbol2 = Symbol("Geeks")
+  
+// Each time Symbol() method is used to create new global Symbol
+console.log(symbol1 == symbol2); // False
+```
