@@ -1,72 +1,48 @@
-There are two types of data types in JavaScript:
+## JavaScript Data Types
 
-Primitive Data Types − This is the predefined data type that is provided by JavaScript for different usages. These are also known as the in-built data types.
+Datatypes are basically types of data that can be used and manipulated in a program. A variable in JavaScript can contain any data. This means that a variable at one time can be a number and at another be a string.
 
-Non-Primitive Data Types − These data types are derived from the primitive data types and work as a reference. Therefore, they are also known as reference data types.
+The latest ECMAScript standard defines eight data types Out of which seven data types are `Primitive` and complex or `Non-Primitive`.
 
-1.Primitive data types
-The primitive data types are as follows:
+### Primitive Data Types : 
 
-String - It represents a series of characters and is written with quotes. A string can be represented using a single or a double quote.
-Example :
-var str = "Piyush Agrawal";
+The predefined data types provided by JavaScript language are known as primitive data types. Primitive data types are also known as in-built data types.
 
-Number - It represents a number and can be written with or without decimals.
-Example :
-var x = 3; 
+-  `Number` : JavaScript numbers are always stored in double-precision 64-bit binary format IEEE 754. Unlike other programming languages, you don’t need int, float, etc to declare different numeric values.
+- `String` : JavaScript Strings are similar to sentences. They are made up of a list of characters, which is essentially just an “array of characters, like “Hello Everyone” etc.
+- `Boolean` : Represent a logical entity and can have two values: true or false.
+- `Null` : This type has only one value that is null.
+- `Undefined` : A variable that has not been assigned a value is undefined.
+- `Symbol` : Symbols return unique identifiers that can be used to add unique property keys to an object that won’t collide with keys of any other code that might add to the object.
+- `BigInt` : BigInt is a built-in object in JavaScript that provides a way to represent whole numbers larger than 253-1.
 
-BigInt - This data type is used to store numbers which are above the limitation of the Number data type. It can store large integers and is represented by adding “n” to an integer literal.
-Example :
-var bigInteger =  234567890123456789012345678901234567890;
+### Non-Primitive Data Types : 
 
-Boolean - It represents a logical entity and can have only two values : true or false. Booleans are generally used for conditional testing.
-Example :
-var a = 2;
-var b =  3;
-var c =  2;
-(a == b) // returns false
-(a == c) //returns true
+The data types that are derived from primitive data types of the JavaScript language are known as non-primitive data types. It is also known as derived data types or reference data types.
 
-Undefined - When a variable is declared but not assigned, it has the value of undefined and it’s type is also undefined.
-Example :
-var x; // value of x is undefined
-var y = undefined; // we can also set the value of a variable as undefined  
-
-Null - It represents a non-existent or a invalid value.
-Example :
-var z = null;
-
-Symbol - It is a new data type introduced in the ES6 version of javascript. It is used to store an anonymous and unique value.
-Example :
-var symbol1 = Symbol('symbol');
-
-typeof of primitive types :
-typeof "John Doe" // Returns "string"
-typeof 3.14 // Returns "number"
-typeof true // Returns "boolean"
-typeof 234567890123456789012345678901234567890n // Returns bigint
-typeof undefined // Returns "undefined"
-typeof null // Returns "object" (kind of a bug in JavaScript)
-typeof Symbol('symbol') // Returns Symbol
+- `Object`: It is the most important data type and forms the building blocks for modern JavaScript. We will learn about these data types in detail in further articles. `Arrays` and `Functions` in JavaScript belong to the ‘object’ data type.
 
 
-2. Non-primitive types
-In the above examples, we can see that the primitive data types can store only a single value. To store multiple and complex values, we have to use non-primitive data types.
+## Primitive Data Types
 
-The non-primitive data types are as follows:
+### 1. Number
+- A number data type can be an integer, a floating point value, an exponential value, a ‘NaN’ or a ‘Infinity’.
+```
+let num = 2;   // integer 
+let num2 = 1.3;   // floating point number
+let num3 = Infinity;   // Infinity
+let c = 10e4;   //  an exponential value which evaluates to 10*10000
+```
 
-Object: The Object is a non-primitive data type. It is used to store collections of data. An object contains properties, defined as a key-value pair. A property key (name) is always a string, but the value can be any data type, such as strings, numbers, Booleans, or complex data types like arrays, functions, and other objects.
-Example:
-// Collection of data in key-value pairs
-var obj = {
-   x:  43,
-   y:  "Hello world!",
-   z: function(){
-      return this.x;
-   }
-}
+- If a number is divided by 0, the resulting value is `infinity`.
+```
+5/0;    // results in infinity
+The type of infinity is a number
+typeof(infinity);   // returns number
+ ```
 
-Array: The Array data type is used to represent a group of similar values. Every value in an array has a numeric position, called its index, and it may contain data of any data type-numbers, strings, Booleans, functions, objects, and even other arrays. The array index starts from 0 so that the first array element is arr[0], not arr[1].
-Example:
-// Collection of data as an ordered list
-var arr = [5, "Hello", true, 4.1];
+- A `NaN` results when we try to perform an operation on a number with a non-numeric value
+```
+‘hi’ * 5; // returns NaN
+typeof(NaN);  // returns a number
+ ```
