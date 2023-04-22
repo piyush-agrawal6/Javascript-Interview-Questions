@@ -116,3 +116,50 @@ let symbol2 = Symbol("Geeks")
 // Each time Symbol() method is used to create new global Symbol
 console.log(symbol1 == symbol2); // False
 ```
+
+## Non-Primitive Data Types
+
+### 1. Object
+An object in JavaScript contains key-value pairs in its address.
+
+We can create objects in multiple ways. One is by making use of figure brackets {…} with an optional list of properties. The properties of an object are in the form of ‘key: value’ pair. Another way is to make use of the ‘new’ keyword. An empty Object can be created using the given below syntax.
+
+```
+let obj = new Object(); // "object constructor" syntax
+let obj = {};  // "object literal" syntax
+```
+
+When we check the value of obj using the typeof operator, it returns an object.
+```
+typeof (obj) // will return the data type ‘object’.
+```
+
+### 2. Array
+An array in JavaScript is an object data type. An array contains more than one value with a numerical index, where the index starts from 0. Thus it holds its value in a key-value pair.
+```
+var arr1= [1, 2, 3];
+```
+
+```
+arr1[0] =4;
+console.log(arr1) // This will return the array [4, 2, 3]
+typeof (arr1) // will return the data type ‘object’.
+```
+
+The array ‘arr1’ refers to the address in memory which contains the value [4, 2, 3].
+
+### 3. Function
+
+JavaScript doesn’t have a function data type but when we find the data type of a function using the typeof operator, we find that it returns a function. This is because a function is an object in JavaScript. Ideally the data type of a function should return an object but instead, it returns a function. This is an error in JavaScript.
+
+Let’s define a function named a:
+
+```
+function a(){ }
+```
+
+Now let’s find the data type of a by using the typeof operator:
+
+```
+typeof(a); // This will return data type function
+ ```
