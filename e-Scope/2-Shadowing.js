@@ -26,7 +26,7 @@ func();
 // Example:
 function func() {
   var a = "Joy";
-  let b = "Joy";
+  // let b = "Joy";
 
   if (true) {
     let a = "Piyush"; // Legal Shadowing
