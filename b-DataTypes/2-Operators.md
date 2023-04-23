@@ -206,3 +206,29 @@ true
 false
 true
 ```
+
+### 4. JavaScript Logical Operators
+
+`Logical operators` perform logical operations and return a boolean value, either `true` or `false` .
+
+
+|Operator|	Description|	Example|
+|-----------|--------|---------|
+|`&&`	|`Logical AND` : true if both the operands are true, else returns false | `x && y`|
+| `ll` | `Logical OR` : true if either of the operands is true; returns false if both are false	| `x ll y`   |
+|`!`|	`Logical NOT` : true if the operand is false and vice-versa.|	`!x`|
+
+Example: In this example, we will use all logical operators.
+```
+// logical AND
+   console.log(true && true);  // prints true
+   console.log(true && false);  // prints false
+
+// logical OR
+   console.log(true || false);  // prints true
+   console.log(false || false);  // prints false
+
+// logical NOT
+   console.log(!true);  // prints false
+   console.log(!false);  // prints true
+```
