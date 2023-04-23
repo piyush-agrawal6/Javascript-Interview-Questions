@@ -63,10 +63,10 @@ If you use `'use strict'` ; inside a function, the code inside the function will
 
 In the above program, `'use strict' ;` is used inside the `hello()` function. Hence, the strict mode is applicable only inside the function.
 
-
 ### Things Not Allowed in Strict Mode
 
 1. Undeclared variable is not allowed.
+
 ```
 'use strict';
 
@@ -74,6 +74,7 @@ a = 'hello'; // throws an error
 ```
 
 2. Undeclared objects are not allowed.
+
 ```
 'use strict';
 
@@ -81,6 +82,7 @@ person = {name: 'Carla', age: 25}; // throws an error
 ```
 
 3. Deleting an object is not allowed.
+
 ```
 'use strict';
 
@@ -90,6 +92,7 @@ delete person; // throws an error
 ```
 
 4. Duplicating a parameter name is not allowed.
+
 ```
 "use strict";
 
@@ -99,6 +102,7 @@ hello();
 ```
 
 5. Assigning to a non-writable property is not allowed.
+
 ```
 'use strict';
 
@@ -111,6 +115,7 @@ obj1.x = 9; // throws an error
 ```
 
 6. Assigning to a getter-only property is not allowed.
+
 ```
 'use strict';
 
@@ -121,6 +126,7 @@ obj2.x = 5; // throws an error
 ```
 
 7. Assigning to a new property on a non-extensible object is not allowed.
+
 ```
 'use strict';
 
@@ -132,6 +138,7 @@ obj.newValue = 'new value'; // throws an error
 ```
 
 8. Octal syntax is not allowed.
+
 ```
 'use strict';
 
@@ -139,6 +146,7 @@ let a = 010; // throws an error
 ```
 
 9. The variable name arguments and eval are not allowed.
+
 ```
 'use strict';
 
@@ -151,6 +159,6 @@ let eval = 44;
 
 `implements` `interface` `let` `package` `private` `protected` `public` `static` `yield`
 
-
 ### For more details - [docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
+
 ### Next Topic - [DOM/BOM](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/a-Intro/3-DOM-BOM.md)

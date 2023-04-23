@@ -1,8 +1,8 @@
 #### What is Javascript?
 
-`JavaScript` is a lightweight, cross-platform, `single-threaded`, and interpreted compiled programming language which is also known as the scripting language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it. JavaScript is `a weakly typed language` (dynamically typed). JavaScript can be used for Client-side developments as well as Server-side developments. JavaScript is both an imperative and declarative type of language. JavaScript contains a standard library of objects, like Array, Date, and Math, and a core set of language elements like operators, control structures, and statements. 
+`JavaScript` is a lightweight, cross-platform, `single-threaded`, and interpreted compiled programming language which is also known as the scripting language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it. JavaScript is `a weakly typed language` (dynamically typed). JavaScript can be used for Client-side developments as well as Server-side developments. JavaScript is both an imperative and declarative type of language. JavaScript contains a standard library of objects, like Array, Date, and Math, and a core set of language elements like operators, control structures, and statements.
 
-- JavaScript, created by `Brendan Eich` in `1995`, is one of the most widely used web development languages. 
+- JavaScript, created by `Brendan Eich` in `1995`, is one of the most widely used web development languages.
 - It was designed to build dynamic web pages at first. A script is a JS program that may be added to the HTML of any web page. When the page loads, these scripts execute automatically.
 - A language that was originally designed to build dynamic web pages may now be run on the server and on almost any device that has the JavaScript Engine installed.
 - After HTML and CSS, JavaScript is the third biggest web technology.
@@ -93,4 +93,4 @@
 </html>
 ```
 
-  ### Next Topic - [Strict Mode](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/a-Intro/2-StrictMode.md)
+### Next Topic - [Strict Mode](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/a-Intro/2-StrictMode.md)

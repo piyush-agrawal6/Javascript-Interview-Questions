@@ -1,8 +1,8 @@
-## What is an event loop in JavaScript? 
+## What is an event loop in JavaScript?
+
 ![javascript-event-loop](https://user-images.githubusercontent.com/100460788/233776906-dc41f5b2-8242-4ca2-94b8-b9756100822e.png)
 
 The `event loop` is the secret behind JavaScript’s asynchronous programming. JS executes all operations on a single thread, but using a few smart data structures, it gives us the illusion of multi-threading. Let’s take a look at what happens on the back-end.
-
 
 ### Call stack
 
@@ -23,7 +23,6 @@ Where does it send the operation? The event queue. Hence, we have a cyclic syste
 The event loop facilitates this process; it constantly checks whether or not the call stack is empty. If it is empty, new functions are added from the event queue. If it is not, then the current function call is processed.
 
 ![Screenshot_12](https://user-images.githubusercontent.com/100460788/233777102-2d859d08-1f69-4045-a7e0-19a843a9a2e0.png)
-
 
 ### For more details - [Docs](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/)
 

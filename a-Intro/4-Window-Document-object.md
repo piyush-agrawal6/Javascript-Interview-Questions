@@ -9,6 +9,7 @@ Here I am assuming that you already know about DOM and BOW.
 ![Screenshot_2](https://user-images.githubusercontent.com/100460788/233690248-4cb7fe7b-1a27-4fc0-a0b7-ca30783796c6.png)
 
 ### Window Vs Document
+
 `Window object` : It is the top most object and outermost element of the object hierarchy as shown in Figure 1.
 
 `Document object` : Each HTML document that gets loaded into a window becomes a document object. The document contains the contents of the page. Using document object, JavaScript can modify, add and delete the HTML elements, attributes CSS styles in the page
@@ -30,6 +31,6 @@ Here I am assuming that you already know about DOM and BOW.
 
 ![Screenshot_8](https://user-images.githubusercontent.com/100460788/233692050-5769c038-b3c1-41cd-9d36-a2c08fc450ca.png)
 
-
 ### For more details - [Docs](https://www.geeksforgeeks.org/differences-between-document-and-window-objects/)
+
 ### Next Topic - [JS Engine](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/a-Intro/5-Js-Engine.md)
