@@ -25,5 +25,3 @@ The event loop facilitates this process; it constantly checks whether or not the
 ![Screenshot_12](https://user-images.githubusercontent.com/100460788/233777102-2d859d08-1f69-4045-a7e0-19a843a9a2e0.png)
 
 ### For more details - [Docs](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/)
-
-### Next Topic - [Data Types In JS](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/tree/master/b-DataTypes)
