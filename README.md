@@ -13,16 +13,17 @@ From basic to advanced: Test how well you know JavaScript, refresh your knowledg
 | 1   | Introduction to Javascript       |
 | 2   | Advantages of JS                 |
 | 3   | Disadvantages of JS              |
-| 4   | Strict mode in JS                |
-| 5   | JS Engines                       |
+| 4   | Client and Server Javascript     |
+| 5   | Strict mode in JS                |
 | 6   | DOM and BOM                      |
-| 7   | Client and Server Javascript     |
-| 8   | Window and Document Object       |
+| 7   | Window and Document Object       |
+| 8   | JS Engine                        |
 | 9   | Code Execution in JS             |
 | 10  | Event Loop                       |
 | 11  | Data Types                       |
-| 12  | Types of Errors in JS            |
-| 13  | Types of Scope                   |
+| 12  | Operators                        |
+| 13  | Coercion and Type conversion     |
+| 14  | Types of Errors                  |
 | 14  | Shadowing                        |
 | 15  | Hoisting                         |
 | 16  | VAR vs LET vs CONST              |
