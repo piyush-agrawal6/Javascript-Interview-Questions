@@ -182,3 +182,5 @@ Now let’s find the data type of a by using the typeof operator:
 ```
 typeof(a); // This will return data type function
 ```
+
+### Next Topic - [Operators in js](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/b-DataTypes/2-Operators.md)
