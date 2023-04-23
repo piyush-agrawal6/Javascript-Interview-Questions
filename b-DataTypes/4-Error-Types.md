@@ -156,4 +156,4 @@ Value of variable a is : 50
 Finally, block will always execute!
 ```
 
-### next Topic - [Interview questions](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/b-DataTypes/5-Questions.md)
+### Next Topic - [Interview questions](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/b-DataTypes/5-Questions.md)
