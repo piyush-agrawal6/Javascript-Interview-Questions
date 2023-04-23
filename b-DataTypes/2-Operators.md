@@ -8,8 +8,8 @@ JavaScript operators operate the operands (values and variables), these are `sym
 - JS Assignment Operators
 - JS Comparison Operators
 - JS Logical Operators
-- JS Ternary Operators
 - JS Bitwise Operators
+- JS Ternary Operators
 - JS typeof Operator
 
 ### 1. JavaScript Arithmetic Operators
@@ -231,4 +231,69 @@ Example: In this example, we will use all logical operators.
 // logical NOT
    console.log(!true);  // prints false
    console.log(!false);  // prints true
+```
+
+### 5. JavaScript Bitwise Operator
+
+The `bitwise operator` in JavaScript is used to convert the number to a `32-bit` binary number and perform the bitwise operation. The number is converted back to the `64-bit` number after the result. 
+
+
+|Operators	|Name|	Example|
+|-----|-------|----------|
+|`&`|	Bitwise AND	|`x & y`|
+|`l`|	Bitwise OR	|`x l y`|
+|`^`|	Bitwise XOR|	`x ^ y`|
+|`~`|	Bitwise NOT|	`~x`|
+|`<<`|	Left shift	|`x << y`|
+|`>>`|	Sign-propagating right shift|	`x >> y`|
+|`>>>`|	Zero-fill right shift	|`x >>> y`|
+
+Bitwise operator in detail - [Link](https://www.programiz.com/javascript/bitwise-operators)
+
+### 6. JavaScript Ternary Operator
+
+The `ternary operator` has three operands. It is the simplified operator of `if/else` .
+
+Example: In this example, we will use the ternary operator.
+
+```
+ // Assigning values
+    let marks = 40
+      
+ // Ternary Operator
+    let result = (marks > 30) ? "Pass" : "Fail" ;
+   
+    console.log(result);
+```
+Output:
+```
+Pass
+```
+
+### 7. JavaScript typeof Operator
+
+It returns the data type of its operand in the form of a string. The operand can be any object, function, or variable.
+
+Example: In this example, we will use typeof operator.
+
+```
+var a = 17;
+var b = "Piyush";
+var c = "";
+var d = null;
+      
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
+console.log(typeof d);
+console.log(typeof e);
+ ```
+ 
+Output:
+```
+number
+string
+string
+object
+undefined
 ```
