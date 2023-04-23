@@ -190,3 +190,6 @@ console.log(typeof booleanConvert) // string
 ```
 
 In these examples, we explicitly convert a value from one type to another.
+
+
+### Next topic - [Types of errors in js](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/b-DataTypes/4-Error-Types.md)

@@ -56,3 +56,8 @@ JavaScript was developed by Brendan Eich, who was a Netscape programmer. Brendan
 ### Q10. Is javascript a statically typed or a dynamically typed language?
 
 JavaScript is a dynamically typed language. In a dynamically typed language, the type of a variable is checked during run-time in contrast to a statically typed language, where the type of a variable is checked during compile-time.Since javascript is a loosely(dynamically) typed language, variables in JS are not associated with any type. A variable can hold the value of any data type.
+
+
+
+### Next Topic - [Data Types In JS](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/tree/master/b-DataTypes)
+

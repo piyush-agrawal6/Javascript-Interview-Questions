@@ -302,3 +302,5 @@ string
 object
 undefined
 ```
+
+### Next Topic - [Coercion in js](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/b-DataTypes/3-Coercion.md)

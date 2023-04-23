@@ -26,4 +26,4 @@ The event loop facilitates this process; it constantly checks whether or not the
 
 ### For more details - [Docs](https://www.geeksforgeeks.org/what-is-an-event-loop-in-javascript/)
 
-### Next Topic - [Data Types In JS](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/tree/master/b-DataTypes)
+### Next Topic - [Interview Questions](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/a-Intro/8-Questions.md)
