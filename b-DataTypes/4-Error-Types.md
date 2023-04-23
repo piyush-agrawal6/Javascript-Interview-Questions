@@ -21,7 +21,7 @@ Run the code below to see a syntax error. It will be thrown because there are no
 ```
 const ourFunction = () =>{
 console.log(hello)
-// Missign }
+// Missing }
 ```
 Output :
 ```
