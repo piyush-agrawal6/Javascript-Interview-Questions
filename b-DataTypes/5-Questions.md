@@ -101,3 +101,6 @@ Output:
 true
 false
 ```
+
+
+### Next Topic - [Scope](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/tree/master/c-Scope)
