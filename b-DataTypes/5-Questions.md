@@ -1,5 +1,5 @@
-
 ### 1. What are the various data types that exist in JavaScript?
+
 These are the different types of data that JavaScript supports:
 
 - `Boolean` - For true and false values
@@ -26,6 +26,7 @@ These are the different types of data that JavaScript supports:
 - `===` operator is a strict comparison operator that is used to compare the values as well as types.
 
 Example:
+
 ```
 var x = 3;
 var y = "3";
@@ -35,27 +36,35 @@ console.log(x === y) // it returns false as the typeof x is "number" and typeof 
 ```
 
 ### 5. What is NaN property in JavaScript?
+
 - `NaN` property represents the `Not-a-Number` value. It indicates a value that is not a legal number.
 - `typeof` of NaN will return a `Number`.
 - To check if a value is NaN, we use the `isNaN()` function.
 
 ### 6. What would be the result of 2+5+”3″?
+
 Since 2 and 5 are integers, they will be added numerically. And since 3 is a string, its concatenation will be done. So the result would be 73. The ” ” makes all the difference here and represents 3 as a string and not a number.
 
 ### 7. What is the output of "10"+20+30 in JavaScript?
+
 102030 because after a string all the + will be treated as string concatenation operator (not binary +).
 
 ### 8. How to handle exceptions in JavaScript?
+
 By the help of try/catch block, we can handle exceptions in JavaScript. JavaScript supports try, catch, finally and throw keywords for exception handling.
 
 ### 9. What are the falsy values in JavaScript, and how can we check if a value is falsy?
+
 Those values which become false while converting to Boolean are called falsy values.
+
 ```
-const falsyValues = ['', 0, null, undefined, NaN, false];   
+const falsyValues = ['', 0, null, undefined, NaN, false];
 ```
+
 We can check if a value is falsy by using the Boolean function or the Double NOT operator (!!).
 
 ### 10. Guess the outputs of the following code:
+
 ```
 function runFunc(){
   console.log("1" + 1);
@@ -66,7 +75,9 @@ function runFunc(){
 }
 runFunc();
 ```
+
 Output:
+
 ```
 11
 Nan
@@ -76,13 +87,16 @@ Hello78
 ```
 
 ### 11. Guess the outputs of the following code:
+
 ```
 let a = 0;
 let b = false;
 console.log((a == b));
 console.log((a === b));
 ```
+
 Output:
+
 ```
 true
 false
