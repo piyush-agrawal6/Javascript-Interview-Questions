@@ -2,26 +2,28 @@
 
 `Shadowing : `
 
-In the global scope, `shadowing` occurs when a variable declared with the `var` keyword has the same name as a variable declared with the `let` or `onst` keyword. When this happens, the global variable is said to be shadowed by the function-scoped variable.
+In the global scope, `shadowing` occurs when a variable declared with the `var` keyword has the same name as a variable declared with the `let` or `const` keyword. When this happens, the global variable is said to be shadowed by the function-scoped variable.
 
 Example :
+
 ```ts
-let a = 'Hey';
+let a = "Hey";
 
 function func() {
-    let a = 'Hey how';
-    if (true) {
-        let a = 'Hey how are you?'; 
-        console.log(a);
-    }
+  let a = "Hey how";
+  if (true) {
+    let a = "Hey how are you?";
     console.log(a);
+  }
+  console.log(a);
 }
-console.log(a)
+console.log(a);
 
 func();
 ```
 
 Output:
+
 ```ts
 Hey
 Hey how are you?
@@ -33,6 +35,7 @@ Hey how
 Now, while shadowing a variable, it should not cross the boundary of the scope, i.e. we can shadow var variable by let variable but cannot do the opposite. So, if we try to shadow let variable by var variable, it is known as Illegal Shadowing and it will give the error as “variable is already defined.”
 
 Example :
+
 ```ts
 function func() {
   var a = "Joy";
