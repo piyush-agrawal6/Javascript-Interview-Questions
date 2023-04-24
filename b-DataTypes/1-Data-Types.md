@@ -28,7 +28,7 @@ The data types that are derived from primitive data types of the JavaScript lang
 
 - A number data type can be an integer, a floating point value, an exponential value, a ‘NaN’ or a ‘Infinity’.
 
-```
+```ts
 let num = 2;    // integer
 let num2 = 1.3;    // floating point number
 let num3 = Infinity;    // Infinity
@@ -37,7 +37,7 @@ let c = 10e4;    //  an exponential value which evaluates to 10*10000
 
 - If a number is divided by 0, the resulting value is `infinity`.
 
-```
+```ts
 5/0;    // results in infinity
 The type of infinity is a number
 typeof(infinity);     // returns number
@@ -45,7 +45,7 @@ typeof(infinity);     // returns number
 
 - A `NaN` results when we try to perform an operation on a number with a non-numeric value
 
-```
+```ts
 ‘hi’ * 5;    // returns NaN
 typeof(NaN);    // returns a number
 ```
@@ -54,7 +54,7 @@ typeof(NaN);    // returns a number
 
 The string data type in JavaScript can be any group of characters enclosed by a single or double-quotes or by backticks.
 
-```
+```ts
 let str = "Good morning !";
 let str2 = 'Single quotes works fine';
 let str3 = `Hey ${str}`;   // output will be "Hey Good morning !"
@@ -68,7 +68,7 @@ The boolean data type has only two values, `true` and `false`. It is mostly used
 
 Let’s see an example of comparison statement:
 
-```
+```ts
 var a=5;
 var b=6;
 console.log(a==b)   // returns false
@@ -77,7 +77,7 @@ console.log(a!=b)   // returns true
 
 When we check the data type of ‘true’ or ‘false’ using typeof operator, it returns a boolean.
 
-```
+```ts
 typeof(true)   // returns boolean
 typeof(false)   // returns boolean
 ```
@@ -86,7 +86,7 @@ typeof(false)   // returns boolean
 
 `Undefined` data type means a variable that is not defined. The variable is declared but doesn’t contain any value.
 
-```
+```ts
 var a;
 console.log(a);   // This will return undefined.
 ```
@@ -97,14 +97,14 @@ The null in JavaScript is a data type that is represented by only one value, the
 
 Something like this:
 
-```
+```ts
 var a = null;
 console.log(a);   // This returns null
 ```
 
 If we check the data type of a using the typeof operator, we get:
 
-```
+```ts
 typeof(a);     // This returns object
 ```
 
@@ -114,7 +114,7 @@ This means the type of a null value is an object, not null. This is a known issu
 
 BigInt: BigInt is a built-in object in JavaScript that provides a way to represent whole numbers larger than 253-1. The largest number that JavaScript can reliably represent with the Number primitive is 253-1, which is represented by the MAX_SAFE_INTEGER constant.
 
-```
+```ts
 var bigBin = BigInt("0b1010101001010101001111111111111111");
 // 11430854655n
 console.log(bigBin);
@@ -124,7 +124,7 @@ console.log(bigBin);
 
 Symbols are new primitive built-in object types introduced as part of ES6. Symbols return unique identifiers that can be used to add unique property keys to an object that won’t collide with keys of any other code that might add to the object. They are used as object properties that cannot be recreated. It basically helps us to enable encapsulation or information hiding.
 
-```
+```ts
 let symbol1 = Symbol("Geeks")
 let symbol2 = Symbol("Geeks")
 
@@ -140,14 +140,14 @@ An object in JavaScript contains key-value pairs in its address.
 
 We can create objects in multiple ways. One is by making use of figure brackets {…} with an optional list of properties. The properties of an object are in the form of ‘key: value’ pair. Another way is to make use of the ‘new’ keyword. An empty Object can be created using the given below syntax.
 
-```
+```ts
 let obj = new Object(); // "object constructor" syntax
 let obj = {};  // "object literal" syntax
 ```
 
 When we check the value of obj using the typeof operator, it returns an object.
 
-```
+```ts
 typeof (obj) // will return the data type ‘object’.
 ```
 
@@ -155,11 +155,11 @@ typeof (obj) // will return the data type ‘object’.
 
 An array in JavaScript is an object data type. An array contains more than one value with a numerical index, where the index starts from 0. Thus it holds its value in a key-value pair.
 
-```
+```ts
 var arr1= [1, 2, 3];
 ```
 
-```
+```ts
 arr1[0] =4;
 console.log(arr1) // This will return the array [4, 2, 3]
 typeof (arr1) // will return the data type ‘object’.
@@ -173,13 +173,13 @@ JavaScript doesn’t have a function data type but when we find the data type of
 
 Let’s define a function named a:
 
-```
+```ts
 function a(){ }
 ```
 
 Now let’s find the data type of a by using the typeof operator:
 
-```
+```ts
 typeof(a); // This will return data type function
 ```
 
