@@ -27,7 +27,7 @@ These are the different types of data that JavaScript supports:
 
 Example:
 
-```
+```ts
 var x = 3;
 var y = "3";
 
@@ -57,7 +57,7 @@ By the help of try/catch block, we can handle exceptions in JavaScript. JavaScri
 
 Those values which become false while converting to Boolean are called falsy values.
 
-```
+```ts
 const falsyValues = ['', 0, null, undefined, NaN, false];
 ```
 
@@ -65,7 +65,7 @@ We can check if a value is falsy by using the Boolean function or the Double NOT
 
 ### 10. Guess the outputs of the following code:
 
-```
+```ts
 function runFunc(){
   console.log("1" + 1);
   console.log("A" - 1);
@@ -78,7 +78,7 @@ runFunc();
 
 Output:
 
-```
+```ts
 11
 Nan
 2-22
@@ -88,7 +88,7 @@ Hello78
 
 ### 11. Guess the outputs of the following code:
 
-```
+```ts
 let a = 0;
 let b = false;
 console.log((a == b));
@@ -97,7 +97,7 @@ console.log((a === b));
 
 Output:
 
-```
+```ts
 true
 false
 ```
