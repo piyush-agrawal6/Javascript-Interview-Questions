@@ -129,3 +129,5 @@ Output :
 1
 x is not defined
 ```
+
+### Next topic - [Shadowing in js](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/c-Scope/2-Shadowing.md)
