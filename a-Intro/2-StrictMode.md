@@ -21,7 +21,7 @@ In strict mode, using a variable without declaring it throws an error.
 
 For example,
 
-```
+```ts
 console.log("some code");
 
 // 'use strict' is ignored
@@ -33,7 +33,7 @@ x = 21; // does not throw an error
 
 Correct code,
 
-```
+```ts
 'use strict';
 
 // Error
@@ -44,7 +44,7 @@ myVariable = 9;
 
 You can also use strict mode inside a function. For example,
 
-```
+```ts
 myVariable = 9;
 console.log(myVariable); // 9
 
@@ -67,7 +67,7 @@ In the above program, `'use strict' ;` is used inside the `hello()` function. He
 
 1. Undeclared variable is not allowed.
 
-```
+```ts
 'use strict';
 
 a = 'hello'; // throws an error
@@ -75,7 +75,7 @@ a = 'hello'; // throws an error
 
 2. Undeclared objects are not allowed.
 
-```
+```ts
 'use strict';
 
 person = {name: 'Carla', age: 25}; // throws an error
@@ -83,7 +83,7 @@ person = {name: 'Carla', age: 25}; // throws an error
 
 3. Deleting an object is not allowed.
 
-```
+```ts
 'use strict';
 
 let person = {name: 'Carla'};
@@ -93,7 +93,7 @@ delete person; // throws an error
 
 4. Duplicating a parameter name is not allowed.
 
-```
+```ts
 "use strict";
 
 function hello(p1, p1) { console.log('hello')}; // throws an error
@@ -103,7 +103,7 @@ hello();
 
 5. Assigning to a non-writable property is not allowed.
 
-```
+```ts
 'use strict';
 
 let obj1 = {};
@@ -116,7 +116,7 @@ obj1.x = 9; // throws an error
 
 6. Assigning to a getter-only property is not allowed.
 
-```
+```ts
 'use strict';
 
 let obj2 = { get x() { return 17; } };
@@ -127,7 +127,7 @@ obj2.x = 5; // throws an error
 
 7. Assigning to a new property on a non-extensible object is not allowed.
 
-```
+```ts
 'use strict';
 
 let obj = {};
@@ -139,7 +139,7 @@ obj.newValue = 'new value'; // throws an error
 
 8. Octal syntax is not allowed.
 
-```
+```ts
 'use strict';
 
 let a = 010; // throws an error
@@ -147,7 +147,7 @@ let a = 010; // throws an error
 
 9. The variable name arguments and eval are not allowed.
 
-```
+```ts
 'use strict';
 
 let arguments = 'hello'; // throws an error
