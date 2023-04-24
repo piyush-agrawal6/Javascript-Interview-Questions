@@ -19,7 +19,7 @@ The error occurs when you use a predefined syntax incorrectly.
 
 Run the code below to see a syntax error. It will be thrown because there are no closing braces ‘}’ for the function. We can see this here:
 
-```
+```ts
 const ourFunction = () =>{
 console.log(hello)
 // Missing }
@@ -27,7 +27,7 @@ console.log(hello)
 
 Output :
 
-```
+```ts
 }
 ^
 SyntaxError: Unexpected token }
@@ -37,13 +37,13 @@ SyntaxError: Unexpected token }
 
 In a case where a variable reference can't be found or hasn't been declared, then a Reference error occurs.
 
-```
+```ts
 console.log(x);
 ```
 
 Output:
 
-```
+```ts
 console.log(x);
             ^
 ReferenceError: x is not defined
@@ -53,14 +53,14 @@ ReferenceError: x is not defined
 
 An error occurs when a value is used outside the scope of its data type.
 
-```
+```ts
 let num = 15;
 console.log(num.split(""));
 ```
 
 Output:
 
-```
+```ts
 console.log(num.split("")); //Converting a number to an array will throw an error
                 ^
 TypeError: num.split is not a function
@@ -70,7 +70,7 @@ TypeError: num.split is not a function
 
 Current JavaScript engines and EcmaScript specifications do not throw this error. However, it is still available for backward compatibility. The error is called when the `eval()` backward function is used, as shown in the following code block:
 
-```
+```ts
 try{
   throw new EvalError("'Throws an error'")
 }catch(error){
@@ -80,7 +80,7 @@ try{
 
 Output:
 
-```
+```ts
 EvalError 'Throws an error'
 ```
 
@@ -88,7 +88,7 @@ EvalError 'Throws an error'
 
 There is an error when a range of expected values is required, as shown below:
 
-```
+```ts
 const checkRange = (num)=>{
   if (num < 30) throw new RangeError("Wrong number");
   return true
@@ -99,7 +99,7 @@ checkRange(20);
 
 Output:
 
-```
+```ts
  if (num < 30) throw new RangeError("Wrong number");
                 ^
 RangeError: Wrong number
@@ -109,14 +109,14 @@ RangeError: Wrong number
 
 When the wrong character(s) are used in a URI function, the error is called.
 
-```
+```ts
 console.log(decodeURI("https://github.com/piyush-agrawal6"))
 console.log(decodeURI("%abcd"));
 ```
 
 Output:
 
-```
+```ts
 console.log(decodeURI("%abcd"));
             ^
 URIError: URI malformed
@@ -128,7 +128,7 @@ This error occurs internally in the JS engine, especially when it has too much d
 
 This occurs when the JS engine is overwhelmed by too many recursions, too many switch cases, etc
 
-```
+```ts
 switch(num) {
  case 1:
  ...
@@ -148,7 +148,7 @@ Exception handling has been added to JavaScript in recent versions. Exceptions a
 
 After the `try` block, there must either be a `catch` block or a `finally` block (or both). The catch block is executed if an exception occurs in the try block. After `try/catch` , finally is executed unconditionally. Let's see an example:
 
-```
+```ts
 function myFunc() {
     var num = 50;
      try {
@@ -166,7 +166,7 @@ myFunc()
 
 Output: The below statements will be shown in an alert box.
 
-```
+```ts
 Value of variable a is : 50
 Finally, block will always execute!
 ```
