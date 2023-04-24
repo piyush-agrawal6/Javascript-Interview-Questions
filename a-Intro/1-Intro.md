@@ -53,7 +53,7 @@
 
 #### Example: It is the basic example of using JavaScript code inside of HTML code
 
-```ts
+```html
 <!DOCTYPE html>
 <html lang="en">
 
@@ -76,7 +76,7 @@
 
 #### Example: It is the basic example of using JavaScript javascript code which is written in a different file. By importing that .js file in the head section.
 
-```ts
+```html
 <!DOCTYPE html>
 <html lang="en">
 
