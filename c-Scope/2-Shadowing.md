@@ -48,3 +48,5 @@ function func() {
 
 func();
 ```
+
+### Next Topic - [Interview Questions](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/c-Scope/3-Questions.md)
