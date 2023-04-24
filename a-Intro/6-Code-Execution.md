@@ -15,7 +15,7 @@ Now, an Execution Context has two components and JavaScript code gets executed i
   In this phase, the JavaScript code is executed one line at a time inside the Code Component (also known as the Thread of execution) of Execution Context.
   Let’s see the whole process through an example.
 
-```
+```ts
 var number = 2;
 function Square (n) {
     var res = n * n;
