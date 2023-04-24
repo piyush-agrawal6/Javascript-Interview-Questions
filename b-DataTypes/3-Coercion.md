@@ -16,7 +16,7 @@ Implicit Type Conversion is also known as `Type Coercion` while Explicit Type Co
 
 There are some operations that you might try to execute in JavaScript which are literally not possible. For example, look at the following code:
 
-```
+```ts
 const sum = 35 + "hello"
 ```
 
@@ -24,7 +24,7 @@ Here, you're trying to add a number and a string. This is, practically speaking,
 
 Well, JavaScript is a `weakly typed language`. Instead of JavaScript throwing an `error`, it coerces the type of one value to fit the type of the other value so that the operation can be carried out.
 
-```
+```ts
 const sum = 35 + "hello"
 
 console.log(sum)  // 35hello
@@ -40,7 +40,7 @@ When any string or non-string value is added to a string, it always converts the
 
 Example:
 
-```
+```ts
 var x = 10 + '20';
 var y = '20' + 10;
 var z = true + '10';
@@ -52,7 +52,7 @@ console.log(z);
 
 Output:
 
-```
+```ts
 1020
 2010
 true10
@@ -64,7 +64,7 @@ When an operation like subtraction (-), multiplication (\*), division (/) or mod
 
 Example:
 
-```
+```ts
 var w = 10 - '5';
 var x = 10 * '5';
 var y = 10 / '5';
@@ -78,7 +78,7 @@ console.log(z);
 
 Output:
 
-```
+```ts
 5
 50
 2
@@ -91,7 +91,7 @@ When a Boolean is added to a Number, the Boolean value is converted to a number 
 
 Example:
 
-```
+```ts
 var x = true + 2;
 var y = false + 2;
 
@@ -101,7 +101,7 @@ console.log(y);
 
 Output:
 
-```
+```ts
 3
 2
 ```
@@ -112,7 +112,7 @@ The `Loose Equality Operator (==)` can be used to compare values irrespective of
 
 Example:
 
-```
+```ts
 var x = (10 == '10');
 var y = (true == 1);
 var z = (true == 'true');
@@ -124,7 +124,7 @@ console.log(z);
 
 Output:
 
-```
+```ts
 true
 true
 false
@@ -134,7 +134,7 @@ The `Strict Equality Operator (===)` does a strict check – that is, it strictl
 
 Example:
 
-```
+```ts
 var x = (10 === '10');
 var y = (false === "");
 
@@ -144,7 +144,7 @@ console.log(y);
 
 Output:
 
-```
+```ts
 false
 false
 ```
@@ -155,7 +155,7 @@ To explicitly convert types, you use the type Constructors.
 
 ### For example, to convert a number to a string:
 
-```
+```ts
 const number = 30
 
 const numberConvert = String(number)
@@ -167,7 +167,7 @@ console.log(typeof numberConvert) // string
 
 ### Another example is to convert a number to a boolean:
 
-```
+```ts
 const number = 30
 
 const numberConvert = Boolean(number)
@@ -179,7 +179,7 @@ console.log(typeof numberConvert) // boolean
 
 ### And one more example, to convert a boolean to a string:
 
-```
+```ts
 const boolean = false
 
 const booleanConvert = String(boolean)
