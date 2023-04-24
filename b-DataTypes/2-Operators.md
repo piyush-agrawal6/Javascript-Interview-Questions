@@ -31,7 +31,7 @@ Arithmetic operators are used to perform `arithmetic calculations`.
 
 Example: In this example we will use all arithmetic operators.
 
-```
+```ts
 // Addition Operator
    let a = 1 + 2
    console.log(a);
@@ -79,7 +79,7 @@ Example: In this example we will use all arithmetic operators.
 
 Output :
 
-```
+```ts
 3
 3
 9
@@ -108,7 +108,7 @@ Output :
 
 Example: In this example we will use all assignment operators.
 
-```
+```ts
  // Assignment Operator
     let a = 2;
     console.log(a);
@@ -140,7 +140,7 @@ Example: In this example we will use all assignment operators.
 
 Output :
 
-```
+```ts
 2
 3
 1
@@ -167,7 +167,7 @@ Output :
 
 Example: In this example, we will use all comparison operators.
 
-```
+```ts
  // Assigning values
     let val1 = 5;
     let val2 = 5;
@@ -199,7 +199,7 @@ Example: In this example, we will use all comparison operators.
 
 Output:
 
-```
+```ts
 true
 true
 false
@@ -222,7 +222,7 @@ true
 
 Example: In this example, we will use all logical operators.
 
-```
+```ts
 // logical AND
    console.log(true && true);  // prints true
    console.log(true && false);  // prints false
@@ -258,7 +258,7 @@ The `ternary operator` has three operands. It is the simplified operator of `if/
 
 Example: In this example, we will use the ternary operator.
 
-```
+```ts
  // Assigning values
     let marks = 40
 
@@ -270,7 +270,7 @@ Example: In this example, we will use the ternary operator.
 
 Output:
 
-```
+```ts
 Pass
 ```
 
@@ -280,7 +280,7 @@ It returns the data type of its operand in the form of a string. The operand can
 
 Example: In this example, we will use typeof operator.
 
-```
+```ts
 var a = 17;
 var b = "Piyush";
 var c = "";
@@ -295,7 +295,7 @@ console.log(typeof e);
 
 Output:
 
-```
+```ts
 number
 string
 string
