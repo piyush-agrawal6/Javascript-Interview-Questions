@@ -26,3 +26,5 @@ fun1();
 ```
 - As you can see in the code above, if the javascript engine does not find the variable in local scope, it tries to check for the variable in the outer scope. If the variable does not exist in the outer scope, it tries to find the variable in the global scope.
 - If the variable is not found in the global space as well, a reference error is thrown.
+
+### Next Topic - [Hoisting in js](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/tree/master/d-Hoisting)
