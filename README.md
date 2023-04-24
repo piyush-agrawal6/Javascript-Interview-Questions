@@ -24,10 +24,10 @@ From basic to advanced: Test how well you know JavaScript, refresh your knowledg
 | 12  | Operators                        |
 | 13  | Coercion and Type conversion     |
 | 14  | Types of Errors                  |
-| 14  | Shadowing                        |
-| 15  | Hoisting                         |
-| 16  | VAR vs LET vs CONST              |
-| 17  | Coercion                         |
+| 14  | Scope                            |
+| 15  | Shadowing                        |
+| 16  | Hoisting                         |
+| 17  | VAR vs LET vs CONST              |
 | 18  | Functions                        |
 | 19  | Objects                          |
 | 20  | Callbacks                        |
