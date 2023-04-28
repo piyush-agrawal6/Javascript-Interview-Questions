@@ -5,6 +5,7 @@
 - A complete JavaScript interview handbook/series containing all the topics from basic level to advance. This Series consists of 45+ important topics with related questions and answers.
 ---
 
+
 ### Topics covered in the series
 
 | No. | Topic                            |
