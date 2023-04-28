@@ -14,3 +14,24 @@ const student = {
 };
 ```
 
+## JavaScript Nested Objects
+- An object can also contain another object. 
+- For example,
+- 
+```ts
+const student = { 
+    name: 'John', 
+    marks: {
+        science: 70,
+        math: 75
+    }
+}
+```
+
+## Creating a JavaScript Object
+There are different ways to create new objects:
+- Create a single object, using an object literal.
+- Create a single object, with the keyword new.
+- Define an object constructor, and then create objects of the constructed type.
+- Create an object using Object.create().
+
