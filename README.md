@@ -2,8 +2,8 @@
 
 Click :star:if you like the project and follow [@PiyushAgrawal](https://www.linkedin.com/in/piyush-agrawal-me/) for more updates.
 
-From basic to advanced: Test how well you know JavaScript, refresh your knowledge a bit, or prepare for your coding interview! :rocket: I update this repo regularly with new questions
-
+- From basic to advanced: Test how well you know JavaScript, refresh your knowledge a bit, or prepare for your coding interview! :rocket: I update this repo regularly with new questions
+- A complete JavaScript interview handbook/series containing all the topics from basic level to advance. This Series consists of 45+ important topics with related questions and answers.
 ---
 
 ### Topics covered in the series
