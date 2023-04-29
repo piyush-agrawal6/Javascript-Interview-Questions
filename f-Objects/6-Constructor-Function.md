@@ -110,6 +110,19 @@ Person.prototype.gender = 'Male';
 console.log(person1.gender); // prints Male
 console.log(person2.gender); // prints Male
 ```
-- To learn more about prototypes, visit [JavaScript Prototype]().
+- To learn more about prototypes, visit [JavaScript Prototype](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/f-Objects/7-Prototype.md).
 
+## Built-in JavaScript Constructors
+JavaScript has built-in constructors for native objects:
 
+- `new String()`      - A new String object
+- `new Number()`      - A new Number object
+- `new Boolean()`     - A new Boolean object
+- `new Object()`      - A new Object object
+- `new Array()`       - A new Array object
+- `new RegExp()`      - A new RegExp object
+- `new Function()`    - A new Function object
+- `new Date()`        - A new Date object
+
+`Note` : It is recommended to use primitive data types and create them in a normal way, such as const name = 'John';, const number = 57; and const count = true;
+You should not declare strings, numbers, and boolean values as objects because they slow down the program.
