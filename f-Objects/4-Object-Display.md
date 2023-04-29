@@ -18,7 +18,7 @@ John
 ```
 
 ## Using Object.values()
-- Any JavaScript object can be converted to an array of objct values using `Object.values()` .
+- Any JavaScript object can be converted to an array of object values using `Object.values()` .
 - Example :
 ```ts
 const person = {
@@ -34,11 +34,8 @@ cobnsole.log(arr)
 ["John" , 30]
 ```
 
-
-
-
 ## Using Object.keys()
-- Any JavaScript object can be converted to an array of objct keys using `Object.keys()` .
+- Any JavaScript object can be converted to an array of object keys using `Object.keys()` .
 - Example :
 ```ts
 const person = {
@@ -53,3 +50,19 @@ cobnsole.log(arr)
 ```ts
 ["name" , "age"]
 ```
+
+## Using Object.entries()
+- Any JavaScript object can be converted to an array of [keys,value] pair using `Object.entries()` .
+- Example :
+```ts
+const obj = { 0: "a", 1: "b", 2: "c" };
+
+const arr = Object.entries(obj);
+
+cobnsole.log(arr)
+```
+- Output :
+```ts
+[ ['0', 'a'], ['1', 'b'], ['2', 'c'] ]
+```
+
