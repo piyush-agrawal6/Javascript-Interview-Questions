@@ -56,3 +56,39 @@ console.log(name);  // prints Jack
 console.log(typeof Person); // prints function
 ```
 - `Note` : The constructor() method inside a class gets called automatically each time an object is created.
+
+## 'use strict'
+- Classes always follow 'use-strict'. 
+- All the code inside the class is automatically in strict mode. 
+- For example,
+```ts
+class Car {
+  constructor(name, year) {
+    this.name = name;
+    this.year = year;
+  }
+  age() {
+    // date = new Date();  // This will not work
+    const date = new Date(); // This will work
+    return date.getFullYear() - this.year;
+  }
+}
+```
+- In "strict mode" you will get an error if you use a variable without declaring it.
+
+## Hoisting
+- A class should be defined before using it. Unlike functions and other JavaScript declarations, the class is not hoisted. 
+- For example,
+```ts
+// accessing class
+const p = new Person(); // ReferenceError
+
+// defining class
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+}
+```
+- As you can see, accessing a class before defining it throws an error.
+
