@@ -61,6 +61,11 @@ console.log(student.firstName); // Sarah
 ```
 - In the above example, the setter method is used to change the value of an object.
 
+## Why Using Getters and Setters?
+- It gives simpler syntax
+- It allows equal syntax for properties and methods
+- It can secure better data quality
+- It is useful for doing things behind-the-scenes
 
 ## JavaScript Object.defineProperty()
 - In JavaScript, you can also use `Object.defineProperty()` method to add `getters` and `setters`. For example,
