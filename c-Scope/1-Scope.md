@@ -1,3 +1,5 @@
+![JS-ES2015-min-1200x675](https://user-images.githubusercontent.com/100460788/235360531-15c0c5cb-4b7e-4b97-b338-b6998371d44a.png)
+
 ## What Is Scope?
 
 In JavaScript your code runs within some set scope. This scope determines what variables your code has access to, how new variables will interact with the rest of your code, and a few other things. The best way to think of scope is as a partition to help you separate different parts of your code from one another.
