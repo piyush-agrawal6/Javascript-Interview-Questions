@@ -160,5 +160,4 @@ let eval = 44;
 `implements` `interface` `let` `package` `private` `protected` `public` `static` `yield`
 
 ### For more details - [docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
-
 ### Next Topic - [DOM/BOM](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/a-Intro/3-DOM-BOM.md)
