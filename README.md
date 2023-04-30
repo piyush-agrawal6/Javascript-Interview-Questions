@@ -1,10 +1,12 @@
+
+![maxresdefault](https://user-images.githubusercontent.com/100460788/235359553-2a4bae94-5565-4d74-82ff-42e73f7995e2.jpg)
+
 # JavaScript Interview Questions & Answers
 
 - Click :star: if you like the project and follow [@PiyushAgrawal](https://www.linkedin.com/in/piyush-agrawal-me/) for more updates.
 - From basic to advanced: Test how well you know JavaScript, refresh your knowledge a bit, or prepare for your coding interview. I update this repo regularly with new questions.
 - A complete JavaScript interview handbook/series containing all the topics from basic level to advance. This Series consists of 45+ important topics with related questions and answers.
 ---
-
 
 ### Topics covered in the series
 
