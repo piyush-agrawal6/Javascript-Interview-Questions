@@ -1,3 +1,5 @@
+![Screenshot_3](https://user-images.githubusercontent.com/100460788/235360815-dc40f58d-1397-4ee0-bb19-324db222dd03.png)
+
 ## Objects
 
 - JavaScript `object` is a non-primitive data-type that allows you to store multiple collections of data in `key-value pairs`. 
