@@ -1,3 +1,5 @@
+![Screenshot_2](https://user-images.githubusercontent.com/100460788/235360639-300c3c76-cbb8-4aeb-9384-1857175a2efc.png)
+
 ## Functions
 
 A function is a set of statements that take inputs, do some specific computation, and produce output. 
