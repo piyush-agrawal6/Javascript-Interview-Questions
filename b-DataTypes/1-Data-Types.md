@@ -1,3 +1,5 @@
+![Screenshot_1](https://user-images.githubusercontent.com/100460788/235360399-6fc85acd-b35e-4b94-9ec8-196c63ef1e66.png)
+
 ## JavaScript Data Types
 
 Data types are basically types of data that can be used and manipulated in a program. A variable in JavaScript can contain any data. This means that a variable at one time can be a number and at another be a string.
