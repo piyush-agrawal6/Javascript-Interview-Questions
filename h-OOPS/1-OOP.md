@@ -20,6 +20,6 @@ Let us discuss all four of them in detail below.
 - Please follow the link to read - [Objects](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/tree/master/f-Objects)
 
 ## 2. Classes
-### What is an Classes?
+### What are Classes?
 - We have already discussed a lot about Classes in the previous module.
 - Please follow the link to read - [Classes](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/tree/master/g-Classes)
