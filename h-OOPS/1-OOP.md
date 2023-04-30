@@ -1,3 +1,5 @@
+![Screenshot_6](https://user-images.githubusercontent.com/100460788/235361061-68e1aa1d-7b17-433f-b39d-3bb3e5bde6d1.png)
+
 ## What is OOP (Object-oriented Programming)?
 - OOP is a programming paradigm that believes in grouping data (properties) and methods (actions) together inside a box. 
 - It demonstrates the pattern of real-world objects.
