@@ -1,3 +1,5 @@
+![6217944a3023542e3a3ecebc_javascript-closures](https://user-images.githubusercontent.com/100460788/235360736-b9aaaacb-84c6-4df9-af39-7b7bbc39c608.png)
+
 ## Closure 
 
 - A `closure` can be defined as a JavaScript feature in which the inner function has access to the outer function variable. 
