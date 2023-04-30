@@ -1,4 +1,4 @@
-## JavaScript Static Methods
+## JavaScript Static Methods and Properties
 - By definition, `static methods` are bound to a class, not the instances of that class.
 - Static class methods are defined on the class itself.
 - You cannot call a static method on an object, only on an object class.
@@ -6,18 +6,21 @@
 - The following example defines a `static method` called `getName()` for the `Person` class:
 ```ts
 class Person {
-	constructor(name) {
-		this.name = name;
-	}
-	static getName() {
-		return "Hello"
-	}
+  constructor(name) {
+    this.name = name;
+  }
+  static age = 10;
+  static getName() {
+    return "Hello"
+  }
 }
 ```
 - To invoke the static method, you use the following syntax:
 ```ts
 let name = Person.getName();
+let age = Person.age;
 console.log(name)  //  prints "Hello"
+console.log(age)  //  prints 10
 ```
 - If you attempt to call the static method from an instance of the class, you’ll get an error.
 - For example:
