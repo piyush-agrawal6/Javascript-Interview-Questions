@@ -1,3 +1,5 @@
+![Screenshot_4](https://user-images.githubusercontent.com/100460788/235360891-5fa04006-7ead-4748-a37a-fadd1070a801.png)
+
 ## JavaScript Classes
 - A JavaScript `class` is a blueprint for `creating objects`. 
 - A class encapsulates data and functions that manipulate data.
