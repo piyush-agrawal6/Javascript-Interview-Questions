@@ -23,9 +23,8 @@ const person = new Person();
 console.log(person.name); // John
 console.log(person.age); // 23
 ```
+
 - In the above program, a property `name` is declared in the constructor function and also in the prototype property of the constructor function. 
 - When the program executes, `person.name` looks in the constructor function, since the constructor function has the name property with value 'John', the object takes value from that property.
 - When the program executes, `person.age` looks in the constructor function to see if there is a property named age. 
 - Since the constructor function doesn't have age property, the program looks into the prototype object of the constructor function and the object inherits property from the prototype object (if available).
-
-
