@@ -5,4 +5,4 @@
 - Hoisting in javascript is the default process behavior of moving declaration of all the variables and functions on top of the scope where scope can be either local or global. 
 
 
-### Next Topic - [Hoisting in js](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/d-Hoisting/3-Questions.md)
+### Next Topic - [Functions](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/tree/master/e-Functions)
