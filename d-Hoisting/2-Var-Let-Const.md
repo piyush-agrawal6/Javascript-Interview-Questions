@@ -76,3 +76,6 @@ pi = 3.14159; // TypeError: Assignment to constant variable.
 | `Redeclaration`      | Yes            | No          | No          |
 | `Hoisting`           | Yes            | No          | No          |
 | `Temporal Dead Zone` | No             | Yes         | Yes         |
+
+
+### Next Topic - [Hoisting in js](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/d-Hoisting/3-Questions.md)
