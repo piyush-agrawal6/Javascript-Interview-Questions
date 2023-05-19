@@ -125,4 +125,4 @@ const c = function () {};
 a(); // Uncaught ReferenceError: a is not defined
 ```
 
-### Next Topic - [Hoisting in js](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/d-Hoisting/2-Var-Let-Const.md)
+### Next Topic - [Var , let and const](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/d-Hoisting/2-Var-Let-Const.md)
