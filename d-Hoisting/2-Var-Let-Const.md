@@ -78,4 +78,4 @@ pi = 3.14159; // TypeError: Assignment to constant variable.
 | `Temporal Dead Zone` | No             | Yes         | Yes         |
 
 
-### Next Topic - [Hoisting in js](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/d-Hoisting/3-Questions.md)
+### Next Topic - [Interview questions](https://github.com/piyush-agrawal6/Javascript-Interview-Questions/blob/master/d-Hoisting/3-Questions.md)
